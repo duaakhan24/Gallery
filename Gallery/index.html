@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dua Gallery </title>
+    <!-- css link -->
+     <link rel="stylesheet" href="style.css">
+     <!-- lighthouse css -->
+      <link rel="stylesheet" href="lightbox.css">
+     <!-- icons link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <!-- search box  -->
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="search here ">
+        </div>
+        <!-- post filter  -->
+        <div class="post-filter containerfilter">
+            <span class="filter-item active-filter " data-filter='all'> All</span>
+            <span class="filter-item " data-filter='food'> Food </span>
+            <span class="filter-item " data-filter='animal'> ANIMAL  </span>
+            <span class="filter-item " data-filter='flower'> FLOWER  </span>
+       </div>
+        <!-- upload image  -->
+ <!-- Add a file input and a button to upload images -->
+ <div class="upload-image">
+    <input type="file" id="image-upload" accept="image/*">
+    <div class="button-container">
+      <button id="upload-button">Upload Image</button>
+    </div>
+  </div>
+        <!-- images  -->
+        <div class="images">
+
+            <div class="image-box flower" data-name="flower">
+              <a href="images/sun.jpg" data-lightbox="pictures " data-title="FLOWER">
+                 <img src="images/sun.jpg" alt="">
+            </a> 
+            </div>
+
+            
+
+            <div class="image-box animal" data-name="animal">
+                <a href="images/horsebrown.jpg" data-lightbox="pictures " data-title="ANIMAL">
+                <img src="images/horsebrown.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box food" data-name="food">
+                <a href="images/67.jpg" data-lightbox="pictures " data-title="FOOD">
+                <img src="images/67.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box flower" data-name="flower">
+                <a href="images/17.jpg" data-lightbox="pictures " data-title="FLOWER">
+                <img src="images/17.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box food" data-name="food">
+                <a href="images/nachos.jpg" data-lightbox="pictures " data-title="FOOD">
+                <img src="images/nachos.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box animal" data-name="animal">
+                <a href="images/horse2.jpg" data-lightbox="pictures " data-title="ANIMAL">
+                <img src="images/horse2.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box animal" data-name="animal">
+                <a href="images/cowbuffalo.jpg" data-lightbox="pictures " data-title="ANIMAL">
+                <img src="images/cowbuffalo.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box flower" data-name="flower">
+                <a href="images/45.jpg" data-lightbox="pictures " data-title="FLOWER">
+                <img src="images/45.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box food" data-name="food">
+                <a href="images/alfredo.jpg" data-lightbox="pictures " data-title="FOOD">
+                <img src="images/alfredo.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box flower " data-name="flower">
+                <a href="images/7.jpg" data-lightbox="pictures " data-title="FLOWER">
+                <img src="images/7.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="image-box animal" data-name="animal">
+                <a href="images/horse3.jpg" data-lightbox="pictures " data-title="ANIMAL">
+                <img src="images/horse3.jpg" alt="">
+            </a>
+            </div>
+
+            <div class="image-box animal" data-name="animal">
+                <a href="images/catt.jpg" data-lightbox="pictures " data-title="ANIMAL">
+                <img src="images/catt.jpg" alt="">
+            </a>
+            </div>
+
+            <div class="image-box food" data-name="food">
+                <a href="images/biryani.jpg" data-lightbox="pictures " data-title="FOOD">
+                <img src="images/biryani.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box flower" data-name="flower">
+                <a href="images/19.jpg" data-lightbox="pictures " data-title="FLOWER">
+                <img src="images/19.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box food " data-name="food">
+                <a href="images/kebeb.jpg" data-lightbox="pictures " data-title="FOOD">
+                <img src="images/kebeb.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box animal" data-name="animal">
+                <a href="images/28.jpg" data-lightbox="pictures " data-title="ANIMAL">
+                <img src="images/28.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box food" data-name="food">
+                <a href="images/chowmein.jpg" data-lightbox="pictures " data-title="FOOD">
+                <img src="images/chowmein.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box flower" data-name="flower">
+                <a href="images/14.jpg" data-lightbox="pictures " data-title="FLOWER">
+                <img src="images/14.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="image-box food" data-name="food">
+                <a href="images/icecream.jpg" data-lightbox="pictures " data-title="FOOD">
+                <img src="images/icecream.jpg" alt="">
+                </a>
+            </div>
+            <!-- for no results  -->
+            <div class="no-results" style="display: none;">No Exact matches found! </div>
+
+  
+  <!--  -->
+        </div>
+    </div>
+    <!-- jquery link  -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<!--  link to JS  -->
+    <script src="script.js"></script>
+    <!--  lightbox jss  -->
+      <script src="lightbox-plus-jquery.js"></script>
+</body>
+</html>

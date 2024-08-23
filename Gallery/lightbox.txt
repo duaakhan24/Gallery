@@ -1,0 +1,11 @@
+pehla google paa jakar lightbox2 search karnaa ohai phir oska github pa jakar download zip file then
+oska dist ka folder sai
+css- kai folder mai sa lightbox copy karna aphna working project mai copy karna hai
+then 
+images ko images ka folder mai copy 
+or js ka folder mai sai -lightbox-plus-jquery 
+then index.html sa css ka link krwadena hai top sathen last mai
+body tagb sa pehla script tag mai src likh kar iska js connnect krwa dena hai 
+
+then <a> tag mai apni image mai ya likhdena hai then it will start working .
+ <a href="images/sun.jpg" data-lightbox="pictures " data-title="FLOWER">
